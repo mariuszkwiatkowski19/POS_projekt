@@ -10,7 +10,7 @@ double 	eng_temp=0,
 		rpm=0;
 
 
-//funkcja dokonuj¹ca konwersji
+//funkcja dokonujÂ¹ca konwersji
 double conversion(double x );
 
 double conversion(double x)	{
@@ -18,18 +18,18 @@ double conversion(double x)	{
 	return x;
 }
 
-//funkcja wizualizuj¹ca
+//funkcja wizualizujÂ¹ca
 void visualization(double y);
 
 void visualization(double y){
 	cout<<"Wartosc po konwersji: ";
-	//konwersja danych do wizualizacji
+	//konwersja danych do wizualizacjii
 	cout<<conversion(y)<<"\n";
 }
 
 
 
-//g³ówna funkcja programu
+//gÂ³Ã³wna funkcja programu
 int main(int argc, char** argv) {
 	
 	
@@ -41,7 +41,7 @@ int main(int argc, char** argv) {
 	cin>>rpm;	
 	
 	
-//wyœwietlanie danych	
+//wyÅ“wietlanie danych	
 	visualization(eng_temp);
 	visualization(inj_pressure);
 	visualization(batt_charge);
