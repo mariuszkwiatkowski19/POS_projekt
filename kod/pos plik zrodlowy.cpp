@@ -14,7 +14,7 @@ double 	eng_temp=0,
 double conversion(double x );
 
 double conversion(double x)	{
-	x=x*2;
+	x=x*x*x*x*x*0.1;
 	return x;
 }
 
