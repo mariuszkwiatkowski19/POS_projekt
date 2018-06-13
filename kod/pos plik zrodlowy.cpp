@@ -5,9 +5,9 @@ using namespace std;
 
 // deklaracja danych pobieranych przez czujniki
 double 	eng_temp=0,       
-		inj_pressure=0,
-		batt_charge=0,
-		rpm=0;
+	inj_pressure=0,
+	batt_charge=0,
+	rpm=0;
 
 
 //funkcja dokonuj¹ca konwersji
@@ -23,7 +23,7 @@ void visualization(double y);
 
 void visualization(double y){
 	cout<<"Wartosc po konwersji: ";
-	//konwersja danych do wizualizacjii
+	//konwersja danych do wizualizacji
 	cout<<conversion(y)<<"\n";
 }
 
