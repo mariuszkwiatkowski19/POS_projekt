@@ -23,7 +23,7 @@ void visualization(double y);
 
 void visualization(double y){
 	cout<<"Wartosc po konwersji: ";
-	//konwersja danych do wizualizacjii
+	//konwersja danych do wizualizacji
 	cout<<conversion(y)<<"\n";
 }
 
